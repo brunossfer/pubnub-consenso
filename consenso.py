@@ -7,8 +7,8 @@ import os
 import json
 
 pnconfig = PNConfiguration()
-pnconfig.publish_key = 'pub-c-56930b6b-4aaa-4a84-8c49-68bef30e8642'
-pnconfig.subscribe_key = 'sub-c-74b06072-fca7-11e9-b316-ee206fc45f5e'
+pnconfig.publish_key = ''
+pnconfig.subscribe_key = ''
 pnconfig.ssl = True
 pubnub = PubNub(pnconfig)
 
